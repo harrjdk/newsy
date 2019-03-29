@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { Splash } from 'src/boot/splash';
+import Splash from './src/boot/splash';
+import { AppRegistry } from 'react-native'
 
 export default class App extends React.Component {
   render() {
@@ -9,12 +10,4 @@ export default class App extends React.Component {
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+AppRegistry.registerComponent('newsy', () => App);

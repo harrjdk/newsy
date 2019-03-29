@@ -24,6 +24,9 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
-  }
+    },
+    "description": "New App Demo powered by https://newsapi.org/. Work in progress. Will update as features are added!",
+    "githubUrl": "https://github.com/hornetshell/newsy"
+  },
+  "newsApiKey": "PUT YOUR KEY HERE!"
 }
